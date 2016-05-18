@@ -10,4 +10,5 @@ var money = 0;
 function getSell() {
   resource *= 1.5;
   document.getElementById("moneyNum").innerHTML = resource;
+  resource = 0
 }
