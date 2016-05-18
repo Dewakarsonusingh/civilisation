@@ -1,1 +1,14 @@
-
+body{
+  font-family: Serif, Tahoma, Verdana, sans-serif;
+}
+button {
+    height: 50px;
+    width: 120px;
+    border-color: #004d00;
+    background-color: #6c7793;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    color: #ffe6e6;
+}
