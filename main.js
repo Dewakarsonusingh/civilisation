@@ -1,6 +1,6 @@
 var resource = 0;
 
-function buttonResource() {
+function getResource() {
   resource += 1;
-  document.getElementById("resourceNum").innerHTML = resource; 
+  document.getElementById("buttonResource").innerHTML = resource; 
 }
