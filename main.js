@@ -21,5 +21,5 @@ function getEmploy() {
 
 if (money < 0) {
    alert("The flame of civilisation has gone out!");
-   document.getElementById('buttonResource; buttonSell; buttonEmploy').setAttribute("style","visibility:hidden");
+   document.getElementById('buttonResource; buttonSell; buttonEmploy').setAttribute("style","visibility:hidden").innerHTML = money;
 }
