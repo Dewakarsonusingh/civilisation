@@ -16,8 +16,10 @@ function getSell() {
 }
 function getEmploy() {
   money -= 100;
+  document.getElementById("moneyNum").innerHTML = money;
 }
 
 if (money < 0) {
    alert("The flame of civilisation has gone out!");
+   document.getElementById('buttonResource; buttonSell; buttonEmploy').setAttribute("style","visibility:hidden");
 }
