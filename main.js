@@ -1,5 +1,4 @@
 var resource = 0;
-var money = 0;
 
 function getResource() {
   resource += 1;
@@ -8,7 +7,6 @@ function getResource() {
 
 var money = 0;
 
-
 function getSell() {
   money += resource / 2;
   resource = 0;
@@ -16,23 +14,23 @@ function getSell() {
   document.getElementById("resourceNum").innerHTML = resource;
 }
 
-var = setInterval(slavePowerup1, 3000);
-var slaveOnOff = 0
+
+
+var = plus1timer;
 
 function getEmploy() {
-  money -= 100;
-  slaveOnOff+= 1;
+    plus1timer = setInterval(plus1Func, 1500);
+    money -= 100;
+    document.getElementById("moneyNum").innerHTML = money;
 }
-  
-if (slaveOnOff > 0) {
-   function slavePowerup1() {
-  resource += 2;
-  document.getElementById("moneyNum").innerHTML = money;
+
+function alertFunc() {
+   resource+= 1;
 }
-  }
 
 if (money < 0) {
    alert("The flame of civilisation has gone out! (and you will not be able to get any more resource points");
     document.getElementById("moneyNum").innerHTML = money;
 }
+
  
