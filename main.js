@@ -11,6 +11,6 @@ var money = 0;
 function getSell() {
   money += resource / 2;
   resource = 0;
-  document.getElementById("moneyNum") = money;
-  document.getElementById("resourceNum") = resource;
+  document.getElementById("moneyNum").innerHTML = money;
+  document.getElementById("resourceNum").innerHTML = resource;
 }
