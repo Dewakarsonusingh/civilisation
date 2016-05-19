@@ -14,14 +14,12 @@ function getSell() {
   document.getElementById("resourceNum").innerHTML = resource;
 }
 
-
-
 var = plus1timer;
 
-function getEmploy() {
-    plus1timer = setInterval(plus1Func, 1500);
-    money -= 100;
-    document.getElementById("moneyNum").innerHTML = money;
+function getEmploy() { 
+  money -= 100;
+  plus1timer = setInterval(plus1Func, 1500);
+  document.getElementById("moneyNum").innerHTML = money;
 }
 
 function alertFunc() {
