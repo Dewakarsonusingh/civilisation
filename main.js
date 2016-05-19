@@ -20,6 +20,6 @@ function getEmploy() {
 }
 
 if (money < 0) {
-   alert("The flame of civilisation has gone out!");
-   document.getElementById('buttonResource; buttonSell; buttonEmploy').setAttribute("style","visibility:hidden").innerHTML = money;
+   alert("The flame of civilisation has gone out! (and you will not be able to get any more resource points");
+    document.getElementById("moneyNum").innerHTML = money;
 }
