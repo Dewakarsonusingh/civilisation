@@ -14,21 +14,19 @@ function getSell() {
   document.getElementById("resourceNum").innerHTML = resource;
 }
 
-var pluse1timer = 0;
+var plus1timer = 0;
 
 function getEmploy() { 
   money -= 100;
-  plus1timer = setInterval(plus1Func, 1500);
   document.getElementById("moneyNum").innerHTML = money;
-}
-
-function alertFunc() {
-   resource+= 1;
-}
-
-if (money < 0) {
+  if (money < 0) {
    alert("The flame of civilisation has gone out! (and you will not be able to get any more resource points");
     document.getElementById("moneyNum").innerHTML = money;
 }
+window.setTimeout(resource += 1, 1000);
+}
+
+
+
 
  
