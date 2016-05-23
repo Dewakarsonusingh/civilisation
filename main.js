@@ -14,7 +14,7 @@ function getSell() {
   document.getElementById("resourceNum").innerHTML = resource;
 }
 
-var pluse1timer;
+var pluse1timer = 0;
 
 function getEmploy() { 
   money -= 100;
