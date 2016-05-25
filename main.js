@@ -21,7 +21,7 @@ function getEmploy() {
    alert("The flame of civilisation has gone out! (and you will not be able to get any more resource points");
     document.getElementById("moneyNum").innerHTML = money;
 }
-window.setTimeout(resource += 1, 1000);
+setInterval(resource += 1, 1000);
 }
 
 
